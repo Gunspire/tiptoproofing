@@ -19,7 +19,7 @@ export function Logo({ className, alt = "tiptoproofing", variant = "default" }: 
       alt={alt}
       className={cn(
         // Intentionally small by default (header/footer override as needed).
-        "h-9 w-auto",
+        "h-10 w-auto",
         // New logo is full-colour; don't invert for dark backgrounds.
         // Keep `variant` for API stability.
         variant === "inverse" ? undefined : undefined,

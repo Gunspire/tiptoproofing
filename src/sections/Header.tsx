@@ -104,7 +104,7 @@ export function Header() {
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center gap-2">
             <Link href="/" className="flex items-center">
-              <Logo className="h-9 sm:h-10" />
+              <Logo className="h-11 sm:h-12" />
               <span className="sr-only">tiptoproofing</span>
             </Link>
           </div>
